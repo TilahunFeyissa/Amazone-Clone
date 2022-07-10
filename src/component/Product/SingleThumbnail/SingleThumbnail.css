@@ -1,0 +1,45 @@
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center top;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 420px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 0.1s ease-in;
+  position: relative;
+}
+.thumbnail img {
+  height: 320px;
+  max-width: 275px;
+  padding-bottom: 10px;
+  padding-top: 15%;
+}
+
+.title {
+  position: absolute;
+  font-weight: bold;
+  font-size: x-large;
+  align-self: flex-start;
+  padding-bottom: 0;
+  color: rgb(67, 67, 67);
+  margin-bottom: 2%;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.shoplink {
+  text-decoration: none;
+  color: rgb(67, 67, 67);
+  align-self: flex-start;
+}
+.shop_now {
+  padding-top: 3%;
+}
